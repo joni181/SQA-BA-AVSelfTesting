@@ -11,7 +11,7 @@ Apart from the `.svg` files, the directory also contains their `.json` config fi
 
 ### Setup
 
-A guide for setting up the project to replicate the simulation and self-test runs can be found in `SETUP_GUIDE.md`.
+Step-by-step guides for setting up the project and to replicate the simulation and self-test runs can be found in `guides/`. Start with `guides/README.md`.
 
 ### Source Code
 
