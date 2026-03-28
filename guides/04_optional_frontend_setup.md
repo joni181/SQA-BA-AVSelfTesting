@@ -1,7 +1,7 @@
 # Optional Frontend Setup
 
 This guide covers optional visualization-related steps.
-It is not required for triggering the self-tests themselves, but it can be useful for observing the planning simulation or publishing poses through a browser-based UI.
+It is not required for triggering the self-tests themselves, but it can be useful for observing the planning simulation or publishing poses through GUI.
 
 If you are starting from an empty workspace, begin with [Autoware setup](./01_autoware_setup.md).
 If you only want to reproduce the self-test runs, continue with [Demonstration reproduction](./02_demo_reproduction.md) and skip this guide unless you need it.

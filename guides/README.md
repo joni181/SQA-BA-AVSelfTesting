@@ -11,7 +11,7 @@ If you are starting from an empty workspace, follow the guides in this order:
 
 Use [Troubleshooting](./03_troubleshooting.md) whenever a step fails.
 
-If you need browser-based visualization or a remote Foxglove bridge, also see [Optional frontend setup](./04_optional_frontend_setup.md).
+If you need a visualization or a remote Foxglove bridge, also see [Optional frontend setup](./04_optional_frontend_setup.md).
 
 ## What Each Guide Covers
 
@@ -26,13 +26,3 @@ If you need browser-based visualization or a remote Foxglove bridge, also see [O
 
 - [Optional frontend setup](./04_optional_frontend_setup.md)
   Describes the Foxglove bridge setup and related notes for environment-specific remote visualization.
-
-## Repository Assumptions
-
-The guides assume that the `SQA-BA-AVSelfTesting` repository README links to:
-
-- the demonstration-ready forks of the required Autoware repositories,
-- the map repository used for the demonstration,
-- and the relevant branches or commit references.
-
-Where the exact fork URLs or branch names are not repeated in the guides, use the repository README as the source of truth.

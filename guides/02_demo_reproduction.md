@@ -119,19 +119,7 @@ ros2 topic echo /planning/mission_planning/route --once --no-arr 2>&1 | head -20
 
 If the route remains empty or planning fails, see [Routing and operation mode issues](./03_troubleshooting.md#routing-and-operation-mode-issues).
 
-## 6. Enable autonomous mode and control
-
-Enable autonomous mode, Autoware control, and engagement:
-
-```sh
-ros2 service call /api/operation_mode/change_to_autonomous autoware_adapi_v1_msgs/srv/ChangeOperationMode "{}"
-ros2 service call /api/operation_mode/enable_autoware_control autoware_adapi_v1_msgs/srv/ChangeAutowareControl "{}"
-ros2 service call /api/autoware/set/engage autoware_adapi_v1_msgs/srv/Engage "{engage: true}"
-```
-
-If the target mode is not available or the pipeline stays stalled, see [Routing and operation mode issues](./03_troubleshooting.md#routing-and-operation-mode-issues).
-
-## 7. Verify that the `Detection Area` module is active
+## 6. Verify that the `Detection Area` module is active
 
 Check that the planner is producing path output and that the detection-area debug topic is populated:
 
@@ -142,7 +130,7 @@ ros2 topic echo /planning/scenario_planning/lane_driving/behavior_planning/behav
 
 If the self-test later reports that no tests were executed, see [Self-test execution issues](./03_troubleshooting.md#self-test-execution-issues).
 
-## 8. Trigger the self-tests
+## 7. Trigger the self-tests
 
 The runtime self-tests are exposed through the `Trigger` service:
 
@@ -152,9 +140,9 @@ ros2 service call /self_test/run std_srvs/srv/Trigger "{}"
 
 The JSON report is returned in the `message` field of the response.
 
-## 9. Reproduce the representative runs
+## 8. Reproduce the representative runs
 
-### 9.1 Baseline run
+### 8.1 Baseline run
 
 Run the self-tests without any fault injection:
 
@@ -167,7 +155,7 @@ Expected outcome:
 - `test_predicted_objects_provider_available` passes.
 - `test_detection_area_geometric_misfit` passes.
 
-### 9.2 Geometric fault only
+### 8.2 Geometric fault only
 
 Inject the perception offset:
 
@@ -187,7 +175,7 @@ Reset the offset afterwards:
 ros2 param set /planning/scenario_planning/lane_driving/behavior_planning/behavior_velocity_planner detection_area.self_test.perception_offset_m 0.0
 ```
 
-### 9.3 Provider fault only
+### 8.3 Provider fault only
 
 Simulate a runtime failure of the predicted-objects provider:
 
@@ -204,7 +192,7 @@ Expected outcome:
 
 If the provider test still passes, see [Self-test execution issues](./03_troubleshooting.md#self-test-execution-issues).
 
-### 9.4 Combined-failure run
+### 8.4 Combined-failure run
 
 Keep the provider disabled and inject the geometric offset again:
 
@@ -218,6 +206,6 @@ Expected outcome:
 - `test_predicted_objects_provider_available` fails.
 - `test_detection_area_geometric_misfit` fails.
 
-## 10. Optional cleanup
+## 9. Optional cleanup
 
 If you want to restore the provider without restarting the full simulation, see [Revive the dummy perception publisher](./03_troubleshooting.md#revive-the-dummy-perception-publisher).

@@ -144,7 +144,6 @@ colcon build --symlink-install --continue-on-error \
   sample_vehicle_launch \
   sample_sensor_kit_launch \
   autoware_lanelet2_map_visualizer \
-  --packages-skip autoware_lane_departure_checker
 ```
 
 Then source the workspace:
