@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040.0" height="313.0" viewBox="0 0 1040.0 313.0">
+  <g transform="translate(64.0,86.5)">
+  <rect x="359.5" y="-22.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="456.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Self-testable Component</text>
+  <rect x="0.0" y="117.5" width="270.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="135.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Operational modes: normal vs. test</text>
+  <rect x="330.0" y="117.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="375.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test API</text>
+  <rect x="480.0" y="117.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="562.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test Code placement</text>
+  <rect x="705.0" y="117.5" width="207.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="808.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Result checking mechanism</text>
+  <line x1="135.0" y1="70.0" x2="808.5" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="456.0" y1="22.5" x2="456.0" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="135.0" y1="70.0" x2="135.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="135.0" y1="109.5" x2="135.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="135.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="375.0" y1="70.0" x2="375.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="375.0" y1="109.5" x2="375.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="375.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="562.5" y1="70.0" x2="562.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="562.5" y1="109.5" x2="562.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="562.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="808.5" y1="70.0" x2="808.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="808.5" y1="109.5" x2="808.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="808.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  </g>
+</svg>

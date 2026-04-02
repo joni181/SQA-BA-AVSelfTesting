@@ -1,0 +1,34 @@
+{
+  "features": [
+    {
+      "id": "logging",
+      "name": "Logging"
+    },
+    {
+      "id": "local_instrumentation_execution_logs",
+      "name": "Local instrumentation & execution logs"
+    },
+    {
+      "id": "central_aggregation",
+      "name": "Central aggregation"
+    }
+  ],
+  "reference_features": [],
+  "relations": [
+    {
+      "kind": "mandatory",
+      "parent": "logging",
+      "child": "local_instrumentation_execution_logs"
+    },
+    {
+      "kind": "optional",
+      "parent": "logging",
+      "child": "central_aggregation"
+    },
+    {
+      "kind": "dependency",
+      "parent": "central_aggregation",
+      "child": "local_instrumentation_execution_logs"
+    }
+  ]
+}

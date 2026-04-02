@@ -1,0 +1,43 @@
+{
+  "features": [
+    {
+      "id": "planning",
+      "name": "Planning"
+    },
+    {
+      "id": "dependency_model_tdg",
+      "name": "Dependendy model (TDG)"
+    },
+    {
+      "id": "regression_planning_dependency_based",
+      "name": "Regression planning (dependency-based)"
+    },
+    {
+      "id": "scc_based_integration_order",
+      "name": "SCC-based integration order"
+    }
+  ],
+  "reference_features": [],
+  "relations": [
+    {
+      "kind": "optional",
+      "parent": "planning",
+      "child": "dependency_model_tdg"
+    },
+    {
+      "kind": "optional",
+      "parent": "planning",
+      "child": "regression_planning_dependency_based"
+    },
+    {
+      "kind": "dependency",
+      "parent": "regression_planning_dependency_based",
+      "child": "dependency_model_tdg"
+    },
+    {
+      "kind": "optional",
+      "parent": "regression_planning_dependency_based",
+      "child": "scc_based_integration_order"
+    }
+  ]
+}

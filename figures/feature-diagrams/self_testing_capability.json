@@ -1,0 +1,30 @@
+{
+  "features": [
+    {
+      "id": "self_testing_capability",
+      "name": "Self-Testing Capability"
+    }
+  ],
+  "reference_features": [
+    {
+      "id": "test_run_pipeline",
+      "name": "Test Run Pipeline"
+    },
+    {
+      "id": "self_testable_component",
+      "name": "Self-testable Component"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "mandatory",
+      "parent": "self_testing_capability",
+      "child": "test_run_pipeline"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "self_testing_capability",
+      "child": "self_testable_component"
+    }
+  ]
+}

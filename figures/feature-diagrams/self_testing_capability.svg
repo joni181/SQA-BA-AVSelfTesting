@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="508.0" height="289.0" viewBox="0 0 508.0 289.0">
+  <g transform="translate(52.0,74.5)">
+  <rect x="105.5" y="-22.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="202.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Self-Testing Capability</text>
+  <rect x="0.0" y="117.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="75.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test Run Pipeline</text>
+  <rect x="211.0" y="117.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="307.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Self-testable Component</text>
+  <line x1="202.0" y1="22.5" x2="75.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="75.5" y1="109.5" x2="75.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="75.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="202.0" y1="22.5" x2="307.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="307.5" y1="109.5" x2="307.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="307.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  </g>
+</svg>

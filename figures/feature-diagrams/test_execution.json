@@ -1,0 +1,161 @@
+{
+  "features": [
+    {
+      "id": "test_execution",
+      "name": "Test execution"
+    },
+    {
+      "id": "test_generation_evolution",
+      "name": "Test generation & evolution"
+    },
+    {
+      "id": "system_model_availability",
+      "name": "System model availability"
+    },
+    {
+      "id": "design_time_generation_strategy",
+      "name": "Design-time generation strategy"
+    },
+    {
+      "id": "dynamic_generation_runtime",
+      "name": "Dynamic generation (runtime)"
+    },
+    {
+      "id": "deterministic_rules_design_time",
+      "name": "Deterministic rules (design time)"
+    },
+    {
+      "id": "model_based_test_derivation",
+      "name": "Model-based test derivation"
+    },
+    {
+      "id": "selection_execution_controls",
+      "name": "Selection & Execution controls"
+    },
+    {
+      "id": "runtime_isolation_strategy",
+      "name": "Runtime Isolation strategy"
+    },
+    {
+      "id": "proceed_if_safe",
+      "name": "Proceed-if-safe"
+    },
+    {
+      "id": "block_and_test",
+      "name": "Block-and-test"
+    },
+    {
+      "id": "abort_and_restore",
+      "name": "Abort-and-restore"
+    },
+    {
+      "id": "clone_and_test",
+      "name": "Clone-and-test"
+    }
+  ],
+  "reference_features": [
+    {
+      "id": "operational_modes_normal_vs_test",
+      "name": "Operational modes: normal vs. test"
+    },
+    {
+      "id": "modellevel_coverage",
+      "name": "Model-level coverage"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "mandatory",
+      "parent": "test_execution",
+      "child": "test_generation_evolution"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_generation_evolution",
+      "child": "system_model_availability"
+    },
+    {
+      "kind": "or",
+      "parent": "test_generation_evolution",
+      "child": "design_time_generation_strategy",
+      "group": "test_generation_evolution_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "test_generation_evolution",
+      "child": "dynamic_generation_runtime",
+      "group": "test_generation_evolution_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "design_time_generation_strategy",
+      "child": "deterministic_rules_design_time",
+      "group": "design_time_generation_strategy_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "design_time_generation_strategy",
+      "child": "model_based_test_derivation",
+      "group": "design_time_generation_strategy_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "model_based_test_derivation",
+      "child": "system_model_availability"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_execution",
+      "child": "selection_execution_controls"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_execution",
+      "child": "runtime_isolation_strategy"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "proceed_if_safe",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "block_and_test",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "abort_and_restore",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "clone_and_test",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "proceed_if_safe",
+      "child": "operational_modes_normal_vs_test"
+    },
+    {
+      "kind": "dependency",
+      "parent": "block_and_test",
+      "child": "operational_modes_normal_vs_test"
+    },
+    {
+      "kind": "dependency",
+      "parent": "abort_and_restore",
+      "child": "operational_modes_normal_vs_test"
+    },
+    {
+      "kind": "dependency",
+      "parent": "modellevel_coverage",
+      "child": "system_model_availability"
+    }
+  ]
+}

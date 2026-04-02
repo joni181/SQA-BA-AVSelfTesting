@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1450.0" height="793.0" viewBox="0 0 1450.0 793.0">
+  <g transform="translate(94.0,116.5)">
+  <rect x="534.5" y="-22.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="631.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Self-Testing Capability</text>
+  <rect x="204.0" y="117.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="279.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test Run Pipeline</text>
+  <rect x="20.0" y="257.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="65.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Trigger</text>
+  <rect x="0.0" y="397.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="65.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Manual Trigger</text>
+  <rect x="232.0" y="257.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="297.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test execution</text>
+  <rect x="190.0" y="397.5" width="214.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="297.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Runtime Isolation strategy</text>
+  <rect x="232.0" y="537.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="297.0" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Clone-and-test</text>
+  <rect x="464.0" y="257.5" width="95.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="511.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Reporting</text>
+  <rect x="844.0" y="117.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="940.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Self-testable Component</text>
+  <rect x="649.5" y="257.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="694.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test API</text>
+  <rect x="619.0" y="397.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="694.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Sequence launcher</text>
+  <rect x="830.0" y="257.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="912.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test Code placement</text>
+  <rect x="833.5" y="397.5" width="158.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="912.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Embedded test code</text>
+  <rect x="1055.0" y="257.5" width="207.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1158.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Result checking mechanism</text>
+  <rect x="1076.0" y="397.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1158.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test-defined checks</text>
+  <line x1="279.5" y1="70.0" x2="940.5" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="631.0" y1="22.5" x2="631.0" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="279.5" y1="70.0" x2="279.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="279.5" y1="109.5" x2="279.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="279.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="940.5" y1="70.0" x2="940.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="940.5" y1="109.5" x2="940.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="940.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="65.0" y1="210.0" x2="511.5" y2="210.0" stroke="black" stroke-width="1.4"/>
+  <line x1="279.5" y1="162.5" x2="279.5" y2="210.0" stroke="black" stroke-width="1.4"/>
+  <line x1="65.0" y1="210.0" x2="65.0" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="65.0" y1="249.5" x2="65.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="65.0" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="297.0" y1="210.0" x2="297.0" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="297.0" y1="249.5" x2="297.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="297.0" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="511.5" y1="210.0" x2="511.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="511.5" y1="249.5" x2="511.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="511.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="297.0" y1="302.5" x2="297.0" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="297.0" y1="389.5" x2="297.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="297.0" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="694.5" y1="210.0" x2="1158.5" y2="210.0" stroke="black" stroke-width="1.4"/>
+  <line x1="940.5" y1="162.5" x2="940.5" y2="210.0" stroke="black" stroke-width="1.4"/>
+  <line x1="694.5" y1="210.0" x2="694.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="694.5" y1="249.5" x2="694.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="694.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="912.5" y1="210.0" x2="912.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="912.5" y1="249.5" x2="912.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="912.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="1158.5" y1="210.0" x2="1158.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="1158.5" y1="249.5" x2="1158.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="1158.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="65.0" y1="302.5" x2="65.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="65.0,302.5 65.0,326.2 65.0,326.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="297.0" y1="442.5" x2="297.0" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="297.0,442.5 297.0,466.2 297.0,466.2" fill="white" stroke="black" stroke-width="1.4"/>
+  <line x1="694.5" y1="302.5" x2="694.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="694.5,302.5 694.5,326.2 694.5,326.2" fill="white" stroke="black" stroke-width="1.4"/>
+  <line x1="912.5" y1="302.5" x2="912.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="912.5,302.5 912.5,326.2 912.5,326.2" fill="white" stroke="black" stroke-width="1.4"/>
+  <line x1="1158.5" y1="302.5" x2="1158.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="1158.5,302.5 1158.5,326.2 1158.5,326.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="65.0" y1="442.5" x2="65.0" y2="612.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="65.0" y1="612.5" x2="649.5" y2="612.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="649.5" y1="612.5" x2="637.5" y2="280.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="637.5" y1="280.0" x2="649.5" y2="280.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <polygon points="649.5,280.0 640.3,283.8 640.3,276.2" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  </g>
+</svg>

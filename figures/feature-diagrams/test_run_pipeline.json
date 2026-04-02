@@ -1,0 +1,84 @@
+{
+  "features": [
+    {
+      "id": "test_run_pipeline",
+      "name": "Test Run Pipeline"
+    },
+    {
+      "id": "ready_to_validate_state_detection",
+      "name": "Ready-to-validate state detection"
+    },
+    {
+      "id": "reporting",
+      "name": "Reporting"
+    }
+  ],
+  "reference_features": [
+    {
+      "id": "planning",
+      "name": "Planning"
+    },
+    {
+      "id": "test_execution",
+      "name": "Test execution"
+    },
+    {
+      "id": "logging",
+      "name": "Logging"
+    },
+    {
+      "id": "evaluation",
+      "name": "Evaluation"
+    },
+    {
+      "id": "reaction",
+      "name": "Reaction"
+    },
+    {
+      "id": "trigger",
+      "name": "Trigger"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "mandatory",
+      "parent": "test_run_pipeline",
+      "child": "trigger"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_run_pipeline",
+      "child": "planning"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_run_pipeline",
+      "child": "ready_to_validate_state_detection"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_run_pipeline",
+      "child": "test_execution"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_run_pipeline",
+      "child": "logging"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_run_pipeline",
+      "child": "evaluation"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_run_pipeline",
+      "child": "reaction"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_run_pipeline",
+      "child": "reporting"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "features": [
+    {
+      "id": "coverage_based_adequacy",
+      "name": "Coverage-based adequacy"
+    },
+    {
+      "id": "code_level_coverage",
+      "name": "Code-level coverage"
+    },
+    {
+      "id": "model_level_coverage",
+      "name": "Model-level coverage"
+    }
+  ],
+  "reference_features": [
+    {
+      "id": "system_model_availability",
+      "name": "System model availability"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "or",
+      "parent": "coverage_based_adequacy",
+      "child": "code_level_coverage",
+      "group": "coverage_based_adequacy_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "coverage_based_adequacy",
+      "child": "model_level_coverage",
+      "group": "coverage_based_adequacy_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "model_level_coverage",
+      "child": "system_model_availability"
+    }
+  ]
+}

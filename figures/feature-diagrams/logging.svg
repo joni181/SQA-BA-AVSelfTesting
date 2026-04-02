@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="627.0" height="289.0" viewBox="0 0 627.0 289.0">
+  <g transform="translate(52.0,74.5)">
+  <rect x="216.5" y="-22.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="261.5" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Logging</text>
+  <rect x="0.0" y="117.5" width="298.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="149.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Local instrumentation &amp; execution logs</text>
+  <rect x="358.0" y="117.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="440.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Central aggregation</text>
+  <line x1="149.0" y1="70.0" x2="440.5" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="261.5" y1="22.5" x2="261.5" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="149.0" y1="70.0" x2="149.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="149.0" y1="109.5" x2="149.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="149.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="440.5" y1="70.0" x2="440.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="440.5" y1="109.5" x2="440.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="440.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="358.0" y1="140.0" x2="298.0" y2="140.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <polygon points="298.0,140.0 307.2,136.2 307.2,143.8" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  </g>
+</svg>

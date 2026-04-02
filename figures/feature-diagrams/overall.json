@@ -1,0 +1,586 @@
+{
+  "features": [
+    {
+      "id": "self_testing_capability",
+      "name": "Self-Testing Capability"
+    },
+    {
+      "id": "test_run_pipeline",
+      "name": "Test Run Pipeline"
+    },
+    {
+      "id": "trigger",
+      "name": "Trigger"
+    },
+    {
+      "id": "test_timing_policy",
+      "name": "Test timing policy"
+    },
+    {
+      "id": "manual_trigger",
+      "name": "Manual Trigger"
+    },
+    {
+      "id": "change_driven_validation_trigger",
+      "name": "Change-driven validation trigger"
+    },
+    {
+      "id": "planning",
+      "name": "Planning"
+    },
+    {
+      "id": "dependency_model_tdg",
+      "name": "Dependendy model (TDG)"
+    },
+    {
+      "id": "regression_planning_dependency_based",
+      "name": "Regression planning (dependency-based)"
+    },
+    {
+      "id": "scc_based_integration_order",
+      "name": "SCC-based integration order"
+    },
+    {
+      "id": "ready_to_validate_state_detection",
+      "name": "Ready-to-validate state detection"
+    },
+    {
+      "id": "test_execution",
+      "name": "Test execution"
+    },
+    {
+      "id": "test_generation_evolution",
+      "name": "Test generation & evolution"
+    },
+    {
+      "id": "system_model_availability",
+      "name": "System model availability"
+    },
+    {
+      "id": "design_time_generation_strategy",
+      "name": "Design-time generation strategy"
+    },
+    {
+      "id": "dynamic_generation_runtime",
+      "name": "Dynamic generation (runtime)"
+    },
+    {
+      "id": "deterministic_rules_design_time",
+      "name": "Deterministic rules (design time)"
+    },
+    {
+      "id": "model_based_test_derivation",
+      "name": "Model-based test derivation"
+    },
+    {
+      "id": "selection_execution_controls",
+      "name": "Selection & Execution controls"
+    },
+    {
+      "id": "runtime_isolation_strategy",
+      "name": "Runtime Isolation strategy"
+    },
+    {
+      "id": "proceed_if_safe",
+      "name": "Proceed-if-safe"
+    },
+    {
+      "id": "block_and_test",
+      "name": "Block-and-test"
+    },
+    {
+      "id": "abort_and_restore",
+      "name": "Abort-and-restore"
+    },
+    {
+      "id": "clone_and_test",
+      "name": "Clone-and-test"
+    },
+    {
+      "id": "logging",
+      "name": "Logging"
+    },
+    {
+      "id": "local_instrumentation_execution_logs",
+      "name": "Local instrumentation & execution logs"
+    },
+    {
+      "id": "central_aggregation",
+      "name": "Central aggregation"
+    },
+    {
+      "id": "evaluation",
+      "name": "Evaluation"
+    },
+    {
+      "id": "adequacy_evaluation_quality_metrics",
+      "name": "Adequacy evaluation & quality metrics"
+    },
+    {
+      "id": "system_level_adequacy_aggregation",
+      "name": "System-level adequacy aggregation"
+    },
+    {
+      "id": "coverage_based_adequacy",
+      "name": "Coverage-based adequacy"
+    },
+    {
+      "id": "code_level_coverage",
+      "name": "Code-level coverage"
+    },
+    {
+      "id": "model_level_coverage",
+      "name": "Model-level coverage"
+    },
+    {
+      "id": "mutation_based_adequacy",
+      "name": "Mutation-based adequacy"
+    },
+    {
+      "id": "adequacy_over_tdg",
+      "name": "Adequacy over TDG"
+    },
+    {
+      "id": "validation_policy_gated",
+      "name": "Validation (policy-gated)"
+    },
+    {
+      "id": "decision_engine_accept_reject",
+      "name": "Decision engine (accept/reject)"
+    },
+    {
+      "id": "validation_policy_artifact",
+      "name": "Validation policy (artifact)"
+    },
+    {
+      "id": "reaction",
+      "name": "Reaction"
+    },
+    {
+      "id": "test_reaction_policies",
+      "name": "Test reaction policies"
+    },
+    {
+      "id": "reaction_executor",
+      "name": "Reaction Executor"
+    },
+    {
+      "id": "component_driven",
+      "name": "component-driven"
+    },
+    {
+      "id": "infrastructure_driven",
+      "name": "infrastructure-driven"
+    },
+    {
+      "id": "reporting",
+      "name": "Reporting"
+    },
+    {
+      "id": "self_testable_component",
+      "name": "Self-testable Component"
+    },
+    {
+      "id": "operational_modes_normal_vs_test",
+      "name": "Operational modes: normal vs. test"
+    },
+    {
+      "id": "test_api",
+      "name": "Test API"
+    },
+    {
+      "id": "sequence_launcher",
+      "name": "Sequence launcher"
+    },
+    {
+      "id": "parallel_testable_interface",
+      "name": "Parallel testable interface"
+    },
+    {
+      "id": "test_code_placement",
+      "name": "Test Code placement"
+    },
+    {
+      "id": "embedded_test_code",
+      "name": "Embedded test code"
+    },
+    {
+      "id": "decoupled_test_code",
+      "name": "Decoupled test code"
+    },
+    {
+      "id": "result_checking_mechanism",
+      "name": "Result checking mechanism"
+    },
+    {
+      "id": "spec_level_checks",
+      "name": "Spec-level checks"
+    },
+    {
+      "id": "test_defined_checks",
+      "name": "Test-defined checks"
+    }
+  ],
+  "reference_features": [],
+  "relations": [
+    {
+      "kind": "mandatory",
+      "parent": "self_testing_capability",
+      "child": "test_run_pipeline"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_run_pipeline",
+      "child": "trigger"
+    },
+    {
+      "kind": "or",
+      "parent": "trigger",
+      "child": "test_timing_policy",
+      "group": "trigger_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "trigger",
+      "child": "manual_trigger",
+      "group": "trigger_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "manual_trigger",
+      "child": "test_api"
+    },
+    {
+      "kind": "or",
+      "parent": "trigger",
+      "child": "change_driven_validation_trigger",
+      "group": "trigger_choices"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_run_pipeline",
+      "child": "planning"
+    },
+    {
+      "kind": "optional",
+      "parent": "planning",
+      "child": "dependency_model_tdg"
+    },
+    {
+      "kind": "optional",
+      "parent": "planning",
+      "child": "regression_planning_dependency_based"
+    },
+    {
+      "kind": "dependency",
+      "parent": "regression_planning_dependency_based",
+      "child": "dependency_model_tdg"
+    },
+    {
+      "kind": "optional",
+      "parent": "regression_planning_dependency_based",
+      "child": "scc_based_integration_order"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_run_pipeline",
+      "child": "ready_to_validate_state_detection"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_run_pipeline",
+      "child": "test_execution"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_execution",
+      "child": "test_generation_evolution"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_generation_evolution",
+      "child": "system_model_availability"
+    },
+    {
+      "kind": "or",
+      "parent": "test_generation_evolution",
+      "child": "design_time_generation_strategy",
+      "group": "test_generation_evolution_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "test_generation_evolution",
+      "child": "dynamic_generation_runtime",
+      "group": "test_generation_evolution_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "design_time_generation_strategy",
+      "child": "deterministic_rules_design_time",
+      "group": "design_time_generation_strategy_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "design_time_generation_strategy",
+      "child": "model_based_test_derivation",
+      "group": "design_time_generation_strategy_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "model_based_test_derivation",
+      "child": "system_model_availability"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_execution",
+      "child": "selection_execution_controls"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_execution",
+      "child": "runtime_isolation_strategy"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "proceed_if_safe",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "block_and_test",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "abort_and_restore",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "clone_and_test",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "proceed_if_safe",
+      "child": "operational_modes_normal_vs_test"
+    },
+    {
+      "kind": "dependency",
+      "parent": "block_and_test",
+      "child": "operational_modes_normal_vs_test"
+    },
+    {
+      "kind": "dependency",
+      "parent": "abort_and_restore",
+      "child": "operational_modes_normal_vs_test"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_run_pipeline",
+      "child": "logging"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "logging",
+      "child": "local_instrumentation_execution_logs"
+    },
+    {
+      "kind": "optional",
+      "parent": "logging",
+      "child": "central_aggregation"
+    },
+    {
+      "kind": "dependency",
+      "parent": "central_aggregation",
+      "child": "local_instrumentation_execution_logs"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_run_pipeline",
+      "child": "evaluation"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "evaluation",
+      "child": "adequacy_evaluation_quality_metrics"
+    },
+    {
+      "kind": "optional",
+      "parent": "adequacy_evaluation_quality_metrics",
+      "child": "system_level_adequacy_aggregation"
+    },
+    {
+      "kind": "dependency",
+      "parent": "system_level_adequacy_aggregation",
+      "child": "central_aggregation"
+    },
+    {
+      "kind": "or",
+      "parent": "adequacy_evaluation_quality_metrics",
+      "child": "coverage_based_adequacy",
+      "group": "adequacy_evaluation_quality_metrics_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "adequacy_evaluation_quality_metrics",
+      "child": "mutation_based_adequacy",
+      "group": "adequacy_evaluation_quality_metrics_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "adequacy_evaluation_quality_metrics",
+      "child": "adequacy_over_tdg",
+      "group": "adequacy_evaluation_quality_metrics_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "adequacy_over_tdg",
+      "child": "dependency_model_tdg"
+    },
+    {
+      "kind": "or",
+      "parent": "coverage_based_adequacy",
+      "child": "code_level_coverage",
+      "group": "coverage_based_adequacy_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "coverage_based_adequacy",
+      "child": "model_level_coverage",
+      "group": "coverage_based_adequacy_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "model_level_coverage",
+      "child": "system_model_availability"
+    },
+    {
+      "kind": "optional",
+      "parent": "evaluation",
+      "child": "validation_policy_gated"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "validation_policy_gated",
+      "child": "decision_engine_accept_reject"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "validation_policy_gated",
+      "child": "validation_policy_artifact"
+    },
+    {
+      "kind": "dependency",
+      "parent": "decision_engine_accept_reject",
+      "child": "adequacy_evaluation_quality_metrics"
+    },
+    {
+      "kind": "dependency",
+      "parent": "decision_engine_accept_reject",
+      "child": "validation_policy_artifact"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_run_pipeline",
+      "child": "reaction"
+    },
+    {
+      "kind": "dependency",
+      "parent": "reaction",
+      "child": "validation_policy_gated"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "reaction",
+      "child": "test_reaction_policies"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "reaction",
+      "child": "reaction_executor"
+    },
+    {
+      "kind": "or",
+      "parent": "test_reaction_policies",
+      "child": "component_driven",
+      "group": "test_reaction_policies_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "test_reaction_policies",
+      "child": "infrastructure_driven",
+      "group": "test_reaction_policies_choices"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_run_pipeline",
+      "child": "reporting"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "self_testing_capability",
+      "child": "self_testable_component"
+    },
+    {
+      "kind": "optional",
+      "parent": "self_testable_component",
+      "child": "operational_modes_normal_vs_test"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "self_testable_component",
+      "child": "test_api"
+    },
+    {
+      "kind": "xor",
+      "parent": "test_api",
+      "child": "sequence_launcher",
+      "group": "test_api_choices"
+    },
+    {
+      "kind": "xor",
+      "parent": "test_api",
+      "child": "parallel_testable_interface",
+      "group": "test_api_choices"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "self_testable_component",
+      "child": "test_code_placement"
+    },
+    {
+      "kind": "xor",
+      "parent": "test_code_placement",
+      "child": "embedded_test_code",
+      "group": "test_code_placement_choices"
+    },
+    {
+      "kind": "xor",
+      "parent": "test_code_placement",
+      "child": "decoupled_test_code",
+      "group": "test_code_placement_choices"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "self_testable_component",
+      "child": "result_checking_mechanism"
+    },
+    {
+      "kind": "or",
+      "parent": "result_checking_mechanism",
+      "child": "spec_level_checks",
+      "group": "result_checking_mechanism_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "result_checking_mechanism",
+      "child": "test_defined_checks",
+      "group": "result_checking_mechanism_choices"
+    }
+  ]
+}

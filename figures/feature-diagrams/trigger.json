@@ -1,0 +1,51 @@
+{
+  "features": [
+    {
+      "id": "trigger",
+      "name": "Trigger"
+    },
+    {
+      "id": "test_timing_policy",
+      "name": "Test timing policy"
+    },
+    {
+      "id": "manual_trigger",
+      "name": "Manual Trigger"
+    },
+    {
+      "id": "change_driven_validation_trigger",
+      "name": "Change-driven validation trigger"
+    }
+  ],
+  "reference_features": [
+    {
+      "id": "test_api",
+      "name": "Test API"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "or",
+      "parent": "trigger",
+      "child": "test_timing_policy",
+      "group": "trigger_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "trigger",
+      "child": "manual_trigger",
+      "group": "trigger_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "trigger",
+      "child": "change_driven_validation_trigger",
+      "group": "trigger_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "manual_trigger",
+      "child": "test_api"
+    }
+  ]
+}

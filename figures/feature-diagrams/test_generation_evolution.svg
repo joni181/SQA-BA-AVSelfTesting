@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1191.0" height="441.0" viewBox="0 0 1191.0 441.0">
+  <g transform="translate(46.0,68.5)">
+  <rect x="439.0" y="-22.5" width="221.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="549.5" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test generation &amp; evolution</text>
+  <rect x="0.0" y="117.5" width="207.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="103.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">System model availability</text>
+  <rect x="414.5" y="117.5" width="249.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="539.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Design-time generation strategy</text>
+  <rect x="871.0" y="117.5" width="228.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="985.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Dynamic generation (runtime)</text>
+  <rect x="267.0" y="257.5" width="263.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="398.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Deterministic rules (design time)</text>
+  <rect x="590.0" y="257.5" width="221.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="700.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Model-based test derivation</text>
+  <line x1="549.5" y1="22.5" x2="103.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="103.5" y1="109.5" x2="103.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="103.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="549.5" y1="22.5" x2="539.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <line x1="549.5" y1="22.5" x2="985.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="549.5,22.5 546.9,46.2 658.4,46.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="539.0" y1="162.5" x2="398.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <line x1="539.0" y1="162.5" x2="700.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="539.0,162.5 503.9,186.2 579.4,186.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="700.5" y1="302.5" x2="700.5" y2="332.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="700.5" y1="332.5" x2="103.5" y2="332.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="103.5" y1="332.5" x2="103.5" y2="162.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <polygon points="103.5,162.5 107.3,171.7 99.7,171.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  </g>
+</svg>

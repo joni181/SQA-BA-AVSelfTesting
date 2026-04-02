@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1138.0" height="319.0" viewBox="0 0 1138.0 319.0">
+  <g transform="translate(40.0,62.5)">
+  <rect x="257.0" y="-22.5" width="214.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="364.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Runtime Isolation strategy</text>
+  <rect x="0.0" y="117.5" width="137.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="68.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Proceed-if-safe</text>
+  <rect x="197.0" y="117.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="262.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Block-and-test</text>
+  <rect x="387.0" y="117.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="462.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Abort-and-restore</text>
+  <rect x="598.0" y="117.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="663.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Clone-and-test</text>
+  <rect x="788.0" y="-22.5" width="270.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="923.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Operational modes: normal vs. test</text>
+  <line x1="364.0" y1="22.5" x2="68.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <line x1="364.0" y1="22.5" x2="262.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <line x1="364.0" y1="22.5" x2="462.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <line x1="364.0" y1="22.5" x2="663.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="364.0,22.5 290.1,46.2 438.8,46.2" fill="white" stroke="black" stroke-width="1.4"/>
+  <line x1="68.5" y1="162.5" x2="68.5" y2="192.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="68.5" y1="192.5" x2="923.0" y2="192.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="923.0" y1="192.5" x2="923.0" y2="22.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <polygon points="923.0,22.5 926.8,31.7 919.2,31.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="262.0" y1="162.5" x2="262.0" y2="216.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="2" stroke-linecap="round"/>
+  <line x1="262.0" y1="216.5" x2="923.0" y2="216.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="2" stroke-linecap="round"/>
+  <line x1="923.0" y1="216.5" x2="923.0" y2="22.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="2" stroke-linecap="round"/>
+  <polygon points="923.0,22.5 926.8,31.7 919.2,31.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="538.0" y1="140.0" x2="788.0" y2="0.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="4" stroke-linecap="round"/>
+  <polygon points="788.0,0.0 781.8,7.9 778.1,1.2" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  </g>
+</svg>

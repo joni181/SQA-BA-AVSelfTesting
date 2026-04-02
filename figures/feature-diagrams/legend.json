@@ -1,0 +1,79 @@
+{
+  "features": [
+    {
+      "id": "root_feature",
+      "name": "Root Feature"
+    },
+    {
+      "id": "alternative_a",
+      "name": "Alternative A"
+    },
+    {
+      "id": "alternative_b",
+      "name": "Alternative B"
+    },
+    {
+      "id": "option_a1",
+      "name": "Option A1"
+    },
+    {
+      "id": "option_a2",
+      "name": "Option A2"
+    },
+    {
+      "id": "mandatory_feature",
+      "name": "Mandatory Feature"
+    },
+    {
+      "id": "optional_feature",
+      "name": "Optional Feature"
+    }
+  ],
+  "reference_features": [
+    {
+      "id": "reference_feature",
+      "name": "Reference Feature"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "xor",
+      "parent": "root_feature",
+      "child": "alternative_a",
+      "group": "root_feature_group"
+    },
+    {
+      "kind": "xor",
+      "parent": "root_feature",
+      "child": "alternative_b",
+      "group": "root_feature_group"
+    },
+    {
+      "kind": "dependency",
+      "parent": "alternative_b",
+      "child": "reference_feature"
+    },
+    {
+      "kind": "or",
+      "parent": "alternative_a",
+      "child": "option_a1",
+      "group": "alternative_a_group"
+    },
+    {
+      "kind": "or",
+      "parent": "alternative_a",
+      "child": "option_a2",
+      "group": "alternative_a_group"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "alternative_b",
+      "child": "mandatory_feature"
+    },
+    {
+      "kind": "optional",
+      "parent": "alternative_b",
+      "child": "optional_feature"
+    }
+  ]
+}

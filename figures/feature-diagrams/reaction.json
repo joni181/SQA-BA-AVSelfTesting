@@ -1,0 +1,59 @@
+{
+  "features": [
+    {
+      "id": "reaction",
+      "name": "Reaction"
+    },
+    {
+      "id": "test_reaction_policies",
+      "name": "Test reaction policies"
+    },
+    {
+      "id": "componentdriven",
+      "name": "component-driven"
+    },
+    {
+      "id": "infrastructuredriven",
+      "name": "infrastructure-driven"
+    },
+    {
+      "id": "reaction_executor",
+      "name": "Reaction Executor"
+    }
+  ],
+  "reference_features": [
+    {
+      "id": "validation_policygated",
+      "name": "Validation (policy-gated)"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "mandatory",
+      "parent": "reaction",
+      "child": "test_reaction_policies"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "reaction",
+      "child": "reaction_executor"
+    },
+    {
+      "kind": "or",
+      "parent": "test_reaction_policies",
+      "child": "componentdriven",
+      "group": "test_reaction_policies_group"
+    },
+    {
+      "kind": "or",
+      "parent": "test_reaction_policies",
+      "child": "infrastructuredriven",
+      "group": "test_reaction_policies_group"
+    },
+    {
+      "kind": "dependency",
+      "parent": "reaction",
+      "child": "validation_policygated"
+    }
+  ]
+}

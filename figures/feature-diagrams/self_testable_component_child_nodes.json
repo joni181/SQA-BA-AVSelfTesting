@@ -1,0 +1,79 @@
+{
+  "features": [
+    {
+      "id": "test_api",
+      "name": "Test API"
+    },
+    {
+      "id": "sequence_launcher",
+      "name": "Sequence launcher"
+    },
+    {
+      "id": "parallel_testable_interface",
+      "name": "Parallel testable interface"
+    },
+    {
+      "id": "test_code_placement",
+      "name": "Test Code placement"
+    },
+    {
+      "id": "embedded_test_code",
+      "name": "Embedded test code"
+    },
+    {
+      "id": "decoupled_test_code",
+      "name": "Decoupled test code"
+    },
+    {
+      "id": "result_checking_mechanism",
+      "name": "Result checking mechanism"
+    },
+    {
+      "id": "speclevel_checks",
+      "name": "Spec-level checks"
+    },
+    {
+      "id": "testdefined_checks",
+      "name": "Test-defined checks"
+    }
+  ],
+  "reference_features": [],
+  "relations": [
+    {
+      "kind": "xor",
+      "parent": "test_api",
+      "child": "sequence_launcher",
+      "group": "test_api_group"
+    },
+    {
+      "kind": "xor",
+      "parent": "test_api",
+      "child": "parallel_testable_interface",
+      "group": "test_api_group"
+    },
+    {
+      "kind": "xor",
+      "parent": "test_code_placement",
+      "child": "embedded_test_code",
+      "group": "test_code_placement_group"
+    },
+    {
+      "kind": "xor",
+      "parent": "test_code_placement",
+      "child": "decoupled_test_code",
+      "group": "test_code_placement_group"
+    },
+    {
+      "kind": "or",
+      "parent": "result_checking_mechanism",
+      "child": "speclevel_checks",
+      "group": "result_checking_mechanism_group"
+    },
+    {
+      "kind": "or",
+      "parent": "result_checking_mechanism",
+      "child": "testdefined_checks",
+      "group": "result_checking_mechanism_group"
+    }
+  ]
+}

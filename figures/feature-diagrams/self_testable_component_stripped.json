@@ -1,0 +1,48 @@
+{
+  "features": [
+    {
+      "id": "selftestable_component",
+      "name": "Self-testable Component"
+    },
+    {
+      "id": "operational_modes_normal_vs_test",
+      "name": "Operational modes: normal vs. test"
+    }
+  ],
+  "reference_features": [
+    {
+      "id": "test_api",
+      "name": "Test API"
+    },
+    {
+      "id": "test_code_placement",
+      "name": "Test Code placement"
+    },
+    {
+      "id": "result_checking_mechanism",
+      "name": "Result checking mechanism"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "optional",
+      "parent": "selftestable_component",
+      "child": "operational_modes_normal_vs_test"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "selftestable_component",
+      "child": "test_api"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "selftestable_component",
+      "child": "test_code_placement"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "selftestable_component",
+      "child": "result_checking_mechanism"
+    }
+  ]
+}

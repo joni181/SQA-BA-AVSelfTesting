@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660.0" height="441.0" viewBox="0 0 660.0 441.0">
+  <g transform="translate(58.0,80.5)">
+  <rect x="227.0" y="-22.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="272.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Planning</text>
+  <rect x="0.0" y="117.5" width="186.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="93.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Dependendy model (TDG)</text>
+  <rect x="246.0" y="117.5" width="298.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="395.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Regression planning (dependency-based)</text>
+  <rect x="284.5" y="257.5" width="221.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="395.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">SCC-based integration order</text>
+  <line x1="93.0" y1="70.0" x2="395.0" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="272.0" y1="22.5" x2="272.0" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="93.0" y1="70.0" x2="93.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="93.0" y1="109.5" x2="93.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="93.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="395.0" y1="70.0" x2="395.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="395.0" y1="109.5" x2="395.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="395.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="395.0" y1="162.5" x2="395.0" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="395.0" y1="249.5" x2="395.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="395.0" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="246.0" y1="140.0" x2="234.0" y2="140.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="234.0" y1="140.0" x2="186.0" y2="140.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <polygon points="186.0,140.0 195.2,136.2 195.2,143.8" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  </g>
+</svg>

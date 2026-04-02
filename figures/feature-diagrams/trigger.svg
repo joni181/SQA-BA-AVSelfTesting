@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="894.0" height="295.0" viewBox="0 0 894.0 295.0">
+  <g transform="translate(40.0,62.5)">
+  <rect x="287.0" y="-22.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="332.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Trigger</text>
+  <rect x="0.0" y="117.5" width="158.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="79.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test timing policy</text>
+  <rect x="218.0" y="117.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="283.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Manual Trigger</text>
+  <rect x="408.0" y="117.5" width="256.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="536.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Change-driven validation trigger</text>
+  <rect x="724.0" y="-22.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="769.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test API</text>
+  <line x1="332.0" y1="22.5" x2="79.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <line x1="332.0" y1="22.5" x2="283.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <line x1="332.0" y1="22.5" x2="536.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="332.0,22.5 268.8,46.2 383.0,46.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="283.0" y1="162.5" x2="283.0" y2="192.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="283.0" y1="192.5" x2="769.0" y2="192.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="769.0" y1="192.5" x2="769.0" y2="22.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <polygon points="769.0,22.5 772.8,31.7 765.2,31.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  </g>
+</svg>

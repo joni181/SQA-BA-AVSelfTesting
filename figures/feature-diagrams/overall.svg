@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9214.0" height="1203.0" viewBox="0 0 9214.0 1203.0">
+  <g transform="translate(220.0,242.5)">
+  <rect x="4290.5" y="-22.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="4387.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Self-Testing Capability</text>
+  <rect x="3461.0" y="117.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="3536.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test Run Pipeline</text>
+  <rect x="287.0" y="257.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="332.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Trigger</text>
+  <rect x="0.0" y="397.5" width="158.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="79.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test timing policy</text>
+  <rect x="218.0" y="397.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="283.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Manual Trigger</text>
+  <rect x="408.0" y="397.5" width="256.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="536.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Change-driven validation trigger</text>
+  <rect x="951.0" y="257.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="996.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Planning</text>
+  <rect x="724.0" y="397.5" width="186.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="817.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Dependendy model (TDG)</text>
+  <rect x="970.0" y="397.5" width="298.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1119.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Regression planning (dependency-based)</text>
+  <rect x="1008.5" y="537.5" width="221.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1119.0" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">SCC-based integration order</text>
+  <rect x="1328.0" y="257.5" width="263.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1459.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Ready-to-validate state detection</text>
+  <rect x="2680.5" y="257.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="2745.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test execution</text>
+  <rect x="2090.0" y="397.5" width="221.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="2200.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test generation &amp; evolution</text>
+  <rect x="1651.0" y="537.5" width="207.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1754.5" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">System model availability</text>
+  <rect x="2065.5" y="537.5" width="249.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="2190.0" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Design-time generation strategy</text>
+  <rect x="2522.0" y="537.5" width="228.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="2636.0" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Dynamic generation (runtime)</text>
+  <rect x="1918.0" y="677.5" width="263.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="2049.5" y="700.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Deterministic rules (design time)</text>
+  <rect x="2241.0" y="677.5" width="221.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="2351.5" y="700.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Model-based test derivation</text>
+  <rect x="2810.0" y="397.5" width="242.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="2931.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Selection &amp; Execution controls</text>
+  <rect x="3369.0" y="397.5" width="214.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="3476.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Runtime Isolation strategy</text>
+  <rect x="3112.0" y="537.5" width="137.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="3180.5" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Proceed-if-safe</text>
+  <rect x="3309.0" y="537.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="3374.0" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Block-and-test</text>
+  <rect x="3499.0" y="537.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="3574.5" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Abort-and-restore</text>
+  <rect x="3710.0" y="537.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="3775.0" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Clone-and-test</text>
+  <rect x="4116.5" y="257.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="4161.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Logging</text>
+  <rect x="3900.0" y="397.5" width="298.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="4049.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Local instrumentation &amp; execution logs</text>
+  <rect x="4258.0" y="397.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="4340.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Central aggregation</text>
+  <rect x="5322.5" y="257.5" width="102.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="5373.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Evaluation</text>
+  <rect x="4929.5" y="397.5" width="291.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="5075.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Adequacy evaluation &amp; quality metrics</text>
+  <rect x="4483.0" y="537.5" width="263.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="4614.5" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">System-level adequacy aggregation</text>
+  <rect x="4908.0" y="537.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="5004.5" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Coverage-based adequacy</text>
+  <rect x="4806.0" y="677.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="4888.5" y="700.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Code-level coverage</text>
+  <rect x="5031.0" y="677.5" width="172.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="5117.0" y="700.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Model-level coverage</text>
+  <rect x="5263.0" y="537.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="5359.5" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Mutation-based adequacy</text>
+  <rect x="5516.0" y="537.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="5591.5" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Adequacy over TDG</text>
+  <rect x="5892.0" y="397.5" width="207.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="5995.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Validation (policy-gated)</text>
+  <rect x="5727.0" y="537.5" width="249.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="5851.5" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Decision engine (accept/reject)</text>
+  <rect x="6036.0" y="537.5" width="228.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="6150.0" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Validation policy (artifact)</text>
+  <rect x="6576.0" y="257.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="6621.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Reaction</text>
+  <rect x="6422.5" y="397.5" width="186.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="6515.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test reaction policies</text>
+  <rect x="6767.0" y="397.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="6842.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Reaction Executor</text>
+  <rect x="6324.0" y="537.5" width="144.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="6396.0" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">component-driven</text>
+  <rect x="6528.0" y="537.5" width="179.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="6617.5" y="560.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">infrastructure-driven</text>
+  <rect x="6978.0" y="257.5" width="95.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="7025.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Reporting</text>
+  <rect x="7857.0" y="117.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="7953.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Self-testable Component</text>
+  <rect x="7133.0" y="257.5" width="270.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="7268.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Operational modes: normal vs. test</text>
+  <rect x="7634.0" y="257.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="7679.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test API</text>
+  <rect x="7463.0" y="397.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="7538.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Sequence launcher</text>
+  <rect x="7674.0" y="397.5" width="221.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="7784.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Parallel testable interface</text>
+  <rect x="8064.0" y="257.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="8146.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test Code placement</text>
+  <rect x="7955.0" y="397.5" width="158.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="8034.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Embedded test code</text>
+  <rect x="8173.0" y="397.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="8255.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Decoupled test code</text>
+  <rect x="8482.5" y="257.5" width="207.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="8586.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Result checking mechanism</text>
+  <rect x="8398.0" y="397.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="8473.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Spec-level checks</text>
+  <rect x="8609.0" y="397.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="8691.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test-defined checks</text>
+  <line x1="3536.5" y1="70.0" x2="7953.5" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="4387.0" y1="22.5" x2="4387.0" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="3536.5" y1="70.0" x2="3536.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="3536.5" y1="109.5" x2="3536.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="3536.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="7953.5" y1="70.0" x2="7953.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="7953.5" y1="109.5" x2="7953.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="7953.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="332.0" y1="210.0" x2="7025.5" y2="210.0" stroke="black" stroke-width="1.4"/>
+  <line x1="3536.5" y1="162.5" x2="3536.5" y2="210.0" stroke="black" stroke-width="1.4"/>
+  <line x1="332.0" y1="210.0" x2="332.0" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="332.0" y1="249.5" x2="332.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="332.0" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="996.0" y1="210.0" x2="996.0" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="996.0" y1="249.5" x2="996.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="996.0" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="1459.5" y1="210.0" x2="1459.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="1459.5" y1="249.5" x2="1459.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="1459.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="2745.5" y1="210.0" x2="2745.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="2745.5" y1="249.5" x2="2745.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="2745.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="4161.5" y1="210.0" x2="4161.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="4161.5" y1="249.5" x2="4161.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="4161.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="5373.5" y1="210.0" x2="5373.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="5373.5" y1="249.5" x2="5373.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="5373.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="6621.0" y1="210.0" x2="6621.0" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="6621.0" y1="249.5" x2="6621.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="6621.0" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="7025.5" y1="210.0" x2="7025.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="7025.5" y1="249.5" x2="7025.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="7025.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="817.0" y1="350.0" x2="1119.0" y2="350.0" stroke="black" stroke-width="1.4"/>
+  <line x1="996.0" y1="302.5" x2="996.0" y2="350.0" stroke="black" stroke-width="1.4"/>
+  <line x1="817.0" y1="350.0" x2="817.0" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="817.0" y1="389.5" x2="817.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="817.0" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="1119.0" y1="350.0" x2="1119.0" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="1119.0" y1="389.5" x2="1119.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="1119.0" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="1119.0" y1="442.5" x2="1119.0" y2="529.5" stroke="black" stroke-width="1.4"/>
+  <line x1="1119.0" y1="529.5" x2="1119.0" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="1119.0" cy="529.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="2200.5" y1="350.0" x2="3476.0" y2="350.0" stroke="black" stroke-width="1.4"/>
+  <line x1="2745.5" y1="302.5" x2="2745.5" y2="350.0" stroke="black" stroke-width="1.4"/>
+  <line x1="2200.5" y1="350.0" x2="2200.5" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="2200.5" y1="389.5" x2="2200.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="2200.5" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="2931.0" y1="350.0" x2="2931.0" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="2931.0" y1="389.5" x2="2931.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="2931.0" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="3476.0" y1="350.0" x2="3476.0" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="3476.0" y1="389.5" x2="3476.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="3476.0" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="2200.5" y1="442.5" x2="1754.5" y2="529.5" stroke="black" stroke-width="1.4"/>
+  <line x1="1754.5" y1="529.5" x2="1754.5" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="1754.5" cy="529.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="4049.0" y1="350.0" x2="4340.5" y2="350.0" stroke="black" stroke-width="1.4"/>
+  <line x1="4161.5" y1="302.5" x2="4161.5" y2="350.0" stroke="black" stroke-width="1.4"/>
+  <line x1="4049.0" y1="350.0" x2="4049.0" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="4049.0" y1="389.5" x2="4049.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="4049.0" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="4340.5" y1="350.0" x2="4340.5" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="4340.5" y1="389.5" x2="4340.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="4340.5" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="5075.0" y1="350.0" x2="5995.5" y2="350.0" stroke="black" stroke-width="1.4"/>
+  <line x1="5373.5" y1="302.5" x2="5373.5" y2="350.0" stroke="black" stroke-width="1.4"/>
+  <line x1="5075.0" y1="350.0" x2="5075.0" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="5075.0" y1="389.5" x2="5075.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="5075.0" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="5995.5" y1="350.0" x2="5995.5" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="5995.5" y1="389.5" x2="5995.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="5995.5" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="5075.0" y1="442.5" x2="4614.5" y2="529.5" stroke="black" stroke-width="1.4"/>
+  <line x1="4614.5" y1="529.5" x2="4614.5" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="4614.5" cy="529.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="5851.5" y1="490.0" x2="6150.0" y2="490.0" stroke="black" stroke-width="1.4"/>
+  <line x1="5995.5" y1="442.5" x2="5995.5" y2="490.0" stroke="black" stroke-width="1.4"/>
+  <line x1="5851.5" y1="490.0" x2="5851.5" y2="529.5" stroke="black" stroke-width="1.4"/>
+  <line x1="5851.5" y1="529.5" x2="5851.5" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="5851.5" cy="529.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="6150.0" y1="490.0" x2="6150.0" y2="529.5" stroke="black" stroke-width="1.4"/>
+  <line x1="6150.0" y1="529.5" x2="6150.0" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="6150.0" cy="529.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="6515.5" y1="350.0" x2="6842.5" y2="350.0" stroke="black" stroke-width="1.4"/>
+  <line x1="6621.0" y1="302.5" x2="6621.0" y2="350.0" stroke="black" stroke-width="1.4"/>
+  <line x1="6515.5" y1="350.0" x2="6515.5" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="6515.5" y1="389.5" x2="6515.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="6515.5" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="6842.5" y1="350.0" x2="6842.5" y2="389.5" stroke="black" stroke-width="1.4"/>
+  <line x1="6842.5" y1="389.5" x2="6842.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="6842.5" cy="389.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="7268.0" y1="210.0" x2="8586.0" y2="210.0" stroke="black" stroke-width="1.4"/>
+  <line x1="7953.5" y1="162.5" x2="7953.5" y2="210.0" stroke="black" stroke-width="1.4"/>
+  <line x1="7268.0" y1="210.0" x2="7268.0" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="7268.0" y1="249.5" x2="7268.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="7268.0" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="7679.0" y1="210.0" x2="7679.0" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="7679.0" y1="249.5" x2="7679.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="7679.0" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="8146.5" y1="210.0" x2="8146.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="8146.5" y1="249.5" x2="8146.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="8146.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="8586.0" y1="210.0" x2="8586.0" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="8586.0" y1="249.5" x2="8586.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="8586.0" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="332.0" y1="302.5" x2="79.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <line x1="332.0" y1="302.5" x2="283.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <line x1="332.0" y1="302.5" x2="536.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="332.0,302.5 268.8,326.2 383.0,326.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="2200.5" y1="442.5" x2="2190.0" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <line x1="2200.5" y1="442.5" x2="2636.0" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="2200.5,442.5 2197.9,466.2 2309.4,466.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="2190.0" y1="582.5" x2="2049.5" y2="677.5" stroke="black" stroke-width="1.4"/>
+  <line x1="2190.0" y1="582.5" x2="2351.5" y2="677.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="2190.0,582.5 2154.9,606.2 2230.4,606.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="3476.0" y1="442.5" x2="3180.5" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <line x1="3476.0" y1="442.5" x2="3374.0" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <line x1="3476.0" y1="442.5" x2="3574.5" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <line x1="3476.0" y1="442.5" x2="3775.0" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="3476.0,442.5 3402.1,466.2 3550.8,466.2" fill="white" stroke="black" stroke-width="1.4"/>
+  <line x1="5075.0" y1="442.5" x2="5004.5" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <line x1="5075.0" y1="442.5" x2="5359.5" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <line x1="5075.0" y1="442.5" x2="5591.5" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="5075.0,442.5 5057.4,466.2 5204.1,466.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="5004.5" y1="582.5" x2="4888.5" y2="677.5" stroke="black" stroke-width="1.4"/>
+  <line x1="5004.5" y1="582.5" x2="5117.0" y2="677.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="5004.5,582.5 4975.5,606.2 5032.6,606.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="6515.5" y1="442.5" x2="6396.0" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <line x1="6515.5" y1="442.5" x2="6617.5" y2="537.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="6515.5,442.5 6485.6,466.2 6541.0,466.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="7679.0" y1="302.5" x2="7538.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <line x1="7679.0" y1="302.5" x2="7784.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="7679.0,302.5 7643.9,326.2 7705.4,326.2" fill="white" stroke="black" stroke-width="1.4"/>
+  <line x1="8146.5" y1="302.5" x2="8034.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <line x1="8146.5" y1="302.5" x2="8255.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="8146.5,302.5 8118.4,326.2 8173.8,326.2" fill="white" stroke="black" stroke-width="1.4"/>
+  <line x1="8586.0" y1="302.5" x2="8473.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <line x1="8586.0" y1="302.5" x2="8691.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="8586.0,302.5 8557.9,326.2 8612.4,326.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="283.0" y1="442.5" x2="283.0" y2="752.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="283.0" y1="752.5" x2="7634.0" y2="752.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="7634.0" y1="752.5" x2="7622.0" y2="280.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="7622.0" y1="280.0" x2="7634.0" y2="280.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <polygon points="7634.0,280.0 7624.8,283.8 7624.8,276.2" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="970.0" y1="420.0" x2="958.0" y2="420.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="2" stroke-linecap="round"/>
+  <line x1="958.0" y1="420.0" x2="910.0" y2="420.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="2" stroke-linecap="round"/>
+  <polygon points="910.0,420.0 919.2,416.2 919.2,423.8" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="2351.5" y1="722.5" x2="2351.5" y2="776.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="4" stroke-linecap="round"/>
+  <line x1="2351.5" y1="776.5" x2="1754.5" y2="776.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="4" stroke-linecap="round"/>
+  <line x1="1754.5" y1="776.5" x2="1754.5" y2="582.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="4" stroke-linecap="round"/>
+  <polygon points="1754.5,582.5 1758.3,591.7 1750.7,591.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="3180.5" y1="582.5" x2="3180.5" y2="800.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="6" stroke-linecap="round"/>
+  <line x1="3180.5" y1="800.5" x2="7268.0" y2="800.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="6" stroke-linecap="round"/>
+  <line x1="7268.0" y1="800.5" x2="7268.0" y2="302.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="6" stroke-linecap="round"/>
+  <polygon points="7268.0,302.5 7271.8,311.7 7264.2,311.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="3374.0" y1="582.5" x2="3374.0" y2="824.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="8" stroke-linecap="round"/>
+  <line x1="3374.0" y1="824.5" x2="7268.0" y2="824.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="8" stroke-linecap="round"/>
+  <line x1="7268.0" y1="824.5" x2="7268.0" y2="302.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="8" stroke-linecap="round"/>
+  <polygon points="7268.0,302.5 7271.8,311.7 7264.2,311.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="3574.5" y1="582.5" x2="3574.5" y2="848.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="10" stroke-linecap="round"/>
+  <line x1="3574.5" y1="848.5" x2="7268.0" y2="848.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="10" stroke-linecap="round"/>
+  <line x1="7268.0" y1="848.5" x2="7268.0" y2="302.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="10" stroke-linecap="round"/>
+  <polygon points="7268.0,302.5 7271.8,311.7 7264.2,311.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="4258.0" y1="420.0" x2="4198.0" y2="420.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="12" stroke-linecap="round"/>
+  <polygon points="4198.0,420.0 4207.2,416.2 4207.2,423.8" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="4483.0" y1="560.0" x2="4423.0" y2="420.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="14" stroke-linecap="round"/>
+  <polygon points="4423.0,420.0 4430.2,427.0 4423.1,430.0" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="5591.5" y1="582.5" x2="5591.5" y2="872.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="16" stroke-linecap="round"/>
+  <line x1="5591.5" y1="872.5" x2="817.0" y2="872.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="16" stroke-linecap="round"/>
+  <line x1="817.0" y1="872.5" x2="817.0" y2="442.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="16" stroke-linecap="round"/>
+  <polygon points="817.0,442.5 820.8,451.7 813.2,451.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="5117.0" y1="722.5" x2="5117.0" y2="896.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="18" stroke-linecap="round"/>
+  <line x1="5117.0" y1="896.5" x2="1754.5" y2="896.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="18" stroke-linecap="round"/>
+  <line x1="1754.5" y1="896.5" x2="1754.5" y2="582.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="18" stroke-linecap="round"/>
+  <polygon points="1754.5,582.5 1758.3,591.7 1750.7,591.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="5851.5" y1="582.5" x2="5851.5" y2="920.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="20" stroke-linecap="round"/>
+  <line x1="5851.5" y1="920.5" x2="5220.5" y2="920.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="20" stroke-linecap="round"/>
+  <line x1="5220.5" y1="920.5" x2="5232.5" y2="420.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="20" stroke-linecap="round"/>
+  <line x1="5232.5" y1="420.0" x2="5220.5" y2="420.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="20" stroke-linecap="round"/>
+  <polygon points="5220.5,420.0 5229.7,416.2 5229.7,423.8" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="5976.0" y1="560.0" x2="6036.0" y2="560.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="22" stroke-linecap="round"/>
+  <polygon points="6036.0,560.0 6026.8,563.8 6026.8,556.2" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="6576.0" y1="280.0" x2="6564.0" y2="280.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="24" stroke-linecap="round"/>
+  <line x1="6564.0" y1="280.0" x2="6111.0" y2="420.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="24" stroke-linecap="round"/>
+  <line x1="6111.0" y1="420.0" x2="6099.0" y2="420.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="24" stroke-linecap="round"/>
+  <polygon points="6099.0,420.0 6108.2,416.2 6108.2,423.8" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  </g>
+</svg>

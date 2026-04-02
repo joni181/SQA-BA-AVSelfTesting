@@ -1,0 +1,71 @@
+{
+  "features": [
+    {
+      "id": "runtime_isolation_strategy",
+      "name": "Runtime Isolation strategy"
+    },
+    {
+      "id": "proceed_if_safe",
+      "name": "Proceed-if-safe"
+    },
+    {
+      "id": "block_and_test",
+      "name": "Block-and-test"
+    },
+    {
+      "id": "abort_and_restore",
+      "name": "Abort-and-restore"
+    },
+    {
+      "id": "clone_and_test",
+      "name": "Clone-and-test"
+    }
+  ],
+  "reference_features": [
+    {
+      "id": "operational_modes_normal_vs_test",
+      "name": "Operational modes: normal vs. test"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "proceed_if_safe",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "block_and_test",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "abort_and_restore",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "clone_and_test",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "proceed_if_safe",
+      "child": "operational_modes_normal_vs_test"
+    },
+    {
+      "kind": "dependency",
+      "parent": "block_and_test",
+      "child": "operational_modes_normal_vs_test"
+    },
+    {
+      "kind": "dependency",
+      "parent": "abort_and_restore",
+      "child": "operational_modes_normal_vs_test"
+    }
+  ]
+}

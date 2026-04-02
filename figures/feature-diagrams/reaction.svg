@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="965.0" height="429.0" viewBox="0 0 965.0 429.0">
+  <g transform="translate(52.0,74.5)">
+  <rect x="252.0" y="-22.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="297.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Reaction</text>
+  <rect x="98.5" y="117.5" width="186.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="191.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test reaction policies</text>
+  <rect x="0.0" y="257.5" width="144.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="72.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">component-driven</text>
+  <rect x="204.0" y="257.5" width="179.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="293.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">infrastructure-driven</text>
+  <rect x="443.0" y="117.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="518.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Reaction Executor</text>
+  <rect x="654.0" y="-22.5" width="207.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="757.5" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Validation (policy-gated)</text>
+  <line x1="191.5" y1="70.0" x2="518.5" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="297.0" y1="22.5" x2="297.0" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="191.5" y1="70.0" x2="191.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="191.5" y1="109.5" x2="191.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="191.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="518.5" y1="70.0" x2="518.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="518.5" y1="109.5" x2="518.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="518.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="191.5" y1="162.5" x2="72.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <line x1="191.5" y1="162.5" x2="293.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="191.5,162.5 161.6,186.2 217.0,186.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="342.0" y1="0.0" x2="354.0" y2="0.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="354.0" y1="0.0" x2="654.0" y2="0.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <polygon points="654.0,0.0 644.8,3.8 644.8,-3.8" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  </g>
+</svg>

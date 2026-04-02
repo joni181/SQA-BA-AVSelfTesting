@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1543.0" height="277.0" viewBox="0 0 1543.0 277.0">
+  <g transform="translate(46.0,68.5)">
+  <rect x="0.0" y="-22.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="82.5" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Central aggregation</text>
+  <rect x="569.5" y="-22.5" width="291.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="715.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Adequacy evaluation &amp; quality metrics</text>
+  <rect x="225.0" y="117.5" width="263.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="356.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">System-level adequacy aggregation</text>
+  <rect x="548.0" y="117.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="644.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Coverage-based adequacy</text>
+  <rect x="801.0" y="117.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="897.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Mutation-based adequacy</text>
+  <rect x="1054.0" y="117.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1129.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Adequacy over TDG</text>
+  <rect x="1265.0" y="-22.5" width="186.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="1358.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Dependency model (TDG)</text>
+  <line x1="715.0" y1="22.5" x2="356.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="356.5" y1="109.5" x2="356.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="356.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="715.0" y1="22.5" x2="644.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <line x1="715.0" y1="22.5" x2="897.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <line x1="715.0" y1="22.5" x2="1129.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="715.0,22.5 697.4,46.2 818.6,46.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="1205.0" y1="140.0" x2="1265.0" y2="0.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <polygon points="1265.0,0.0 1264.9,10.0 1257.8,7.0" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="225.0" y1="140.0" x2="165.0" y2="0.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="2" stroke-linecap="round"/>
+  <polygon points="165.0,0.0 172.2,7.0 165.1,10.0" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  </g>
+</svg>

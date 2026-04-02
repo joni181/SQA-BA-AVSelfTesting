@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980.0" height="429.0" viewBox="0 0 980.0 429.0">
+  <g transform="translate(52.0,74.5)">
+  <rect x="274.5" y="-22.5" width="116.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="332.5" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Root Feature</text>
+  <rect x="63.5" y="117.5" width="123.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="125.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Alternative A</text>
+  <rect x="426.0" y="117.5" width="123.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="487.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Alternative B</text>
+  <rect x="725.0" y="-22.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="800.5" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Reference Feature</text>
+  <rect x="0.0" y="257.5" width="95.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="47.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Option A1</text>
+  <rect x="155.0" y="257.5" width="95.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="202.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Option A2</text>
+  <rect x="310.0" y="257.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="385.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Mandatory Feature</text>
+  <rect x="521.0" y="257.5" width="144.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="593.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Optional Feature</text>
+  <line x1="487.5" y1="162.5" x2="385.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="385.5" y1="249.5" x2="385.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="385.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="487.5" y1="162.5" x2="593.0" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="593.0" y1="249.5" x2="593.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="593.0" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="332.5" y1="22.5" x2="125.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <line x1="332.5" y1="22.5" x2="487.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="332.5,22.5 280.6,46.2 371.2,46.2" fill="white" stroke="black" stroke-width="1.4"/>
+  <line x1="125.0" y1="162.5" x2="47.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <line x1="125.0" y1="162.5" x2="202.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="125.0,162.5 105.6,186.2 144.4,186.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="549.0" y1="140.0" x2="561.0" y2="140.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="561.0" y1="140.0" x2="725.0" y2="0.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <polygon points="725.0,0.0 720.5,8.9 715.5,3.1" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  </g>
+</svg>

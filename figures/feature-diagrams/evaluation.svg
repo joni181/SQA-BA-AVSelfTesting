@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2659.0" height="653.0" viewBox="0 0 2659.0 653.0">
+  <g transform="translate(70.0,92.5)">
+  <rect x="839.5" y="-22.5" width="102.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="890.5" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Evaluation</text>
+  <rect x="446.5" y="117.5" width="291.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="592.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Adequacy evaluation &amp; quality metrics</text>
+  <rect x="0.0" y="257.5" width="263.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="131.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">System-level adequacy aggregation</text>
+  <rect x="425.0" y="257.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="521.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Coverage-based adequacy</text>
+  <rect x="323.0" y="397.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="405.5" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Code-level coverage</text>
+  <rect x="548.0" y="397.5" width="172.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="634.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Model-level coverage</text>
+  <rect x="780.0" y="257.5" width="193.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="876.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Mutation-based adequacy</text>
+  <rect x="1033.0" y="257.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1108.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Adequacy over TDG</text>
+  <rect x="1409.0" y="117.5" width="207.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1512.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Validation (policy-gated)</text>
+  <rect x="1244.0" y="257.5" width="249.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1368.5" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Decision engine (accept/reject)</text>
+  <rect x="1553.0" y="257.5" width="228.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1667.0" y="280.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Validation policy (artifact)</text>
+  <rect x="1841.0" y="-22.5" width="165.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="1923.5" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Central aggregation</text>
+  <rect x="2066.0" y="-22.5" width="186.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="2159.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Dependency model (TDG)</text>
+  <rect x="2312.0" y="-22.5" width="207.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="2415.5" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">System model availability</text>
+  <line x1="592.0" y1="70.0" x2="1512.5" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="890.5" y1="22.5" x2="890.5" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="592.0" y1="70.0" x2="592.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="592.0" y1="109.5" x2="592.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="592.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="1512.5" y1="70.0" x2="1512.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="1512.5" y1="109.5" x2="1512.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="1512.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="592.0" y1="162.5" x2="131.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="131.5" y1="249.5" x2="131.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="131.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="1368.5" y1="210.0" x2="1667.0" y2="210.0" stroke="black" stroke-width="1.4"/>
+  <line x1="1512.5" y1="162.5" x2="1512.5" y2="210.0" stroke="black" stroke-width="1.4"/>
+  <line x1="1368.5" y1="210.0" x2="1368.5" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="1368.5" y1="249.5" x2="1368.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="1368.5" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="1667.0" y1="210.0" x2="1667.0" y2="249.5" stroke="black" stroke-width="1.4"/>
+  <line x1="1667.0" y1="249.5" x2="1667.0" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="1667.0" cy="249.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="592.0" y1="162.5" x2="521.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <line x1="592.0" y1="162.5" x2="876.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <line x1="592.0" y1="162.5" x2="1108.5" y2="257.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="592.0,162.5 574.4,186.2 721.1,186.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="521.5" y1="302.5" x2="405.5" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <line x1="521.5" y1="302.5" x2="634.0" y2="397.5" stroke="black" stroke-width="1.4"/>
+  <polygon points="521.5,302.5 492.5,326.2 549.6,326.2" fill="black" stroke="black" stroke-width="1.4"/>
+  <line x1="1368.5" y1="302.5" x2="1368.5" y2="472.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="1368.5" y1="472.5" x2="737.5" y2="472.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="737.5" y1="472.5" x2="749.5" y2="140.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <line x1="749.5" y1="140.0" x2="737.5" y2="140.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="0" stroke-linecap="round"/>
+  <polygon points="737.5,140.0 746.7,136.2 746.7,143.8" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="1493.0" y1="280.0" x2="1553.0" y2="280.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="2" stroke-linecap="round"/>
+  <polygon points="1553.0,280.0 1543.8,283.8 1543.8,276.2" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="1108.5" y1="302.5" x2="1108.5" y2="496.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="4" stroke-linecap="round"/>
+  <line x1="1108.5" y1="496.5" x2="2159.0" y2="496.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="4" stroke-linecap="round"/>
+  <line x1="2159.0" y1="496.5" x2="2159.0" y2="22.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="4" stroke-linecap="round"/>
+  <polygon points="2159.0,22.5 2162.8,31.7 2155.2,31.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="634.0" y1="442.5" x2="634.0" y2="520.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="6" stroke-linecap="round"/>
+  <line x1="634.0" y1="520.5" x2="2415.5" y2="520.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="6" stroke-linecap="round"/>
+  <line x1="2415.5" y1="520.5" x2="2415.5" y2="22.5" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="6" stroke-linecap="round"/>
+  <polygon points="2415.5,22.5 2419.3,31.7 2411.7,31.7" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  <line x1="263.0" y1="280.0" x2="1841.0" y2="0.0" stroke="#444444" stroke-width="2" stroke-dasharray="5 4" stroke-dashoffset="8" stroke-linecap="round"/>
+  <polygon points="1841.0,0.0 1832.6,5.4 1831.2,-2.2" fill="#444444" stroke="#444444" stroke-width="1.2"/>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+{
+  "features": [
+    {
+      "id": "adequacy_evaluation_quality_metrics",
+      "name": "Adequacy evaluation & quality metrics"
+    },
+    {
+      "id": "system_level_adequacy_aggregation",
+      "name": "System-level adequacy aggregation"
+    },
+    {
+      "id": "mutation_based_adequacy",
+      "name": "Mutation-based adequacy"
+    },
+    {
+      "id": "adequacy_over_tdg",
+      "name": "Adequacy over TDG"
+    }
+  ],
+  "reference_features": [
+    {
+      "id": "central_aggregation",
+      "name": "Central aggregation"
+    },
+    {
+      "id": "coverage_based_adequacy",
+      "name": "Coverage-based adequacy"
+    },
+    {
+      "id": "dependency_model_tdg",
+      "name": "Dependency model (TDG)"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "optional",
+      "parent": "adequacy_evaluation_quality_metrics",
+      "child": "system_level_adequacy_aggregation"
+    },
+    {
+      "kind": "or",
+      "parent": "adequacy_evaluation_quality_metrics",
+      "child": "coverage_based_adequacy",
+      "group": "adequacy_evaluation_quality_metrics_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "adequacy_evaluation_quality_metrics",
+      "child": "mutation_based_adequacy",
+      "group": "adequacy_evaluation_quality_metrics_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "adequacy_evaluation_quality_metrics",
+      "child": "adequacy_over_tdg",
+      "group": "adequacy_evaluation_quality_metrics_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "adequacy_over_tdg",
+      "child": "dependency_model_tdg"
+    },
+    {
+      "kind": "dependency",
+      "parent": "system_level_adequacy_aggregation",
+      "child": "central_aggregation"
+    }
+  ]
+}

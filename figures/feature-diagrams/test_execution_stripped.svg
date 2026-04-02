@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="913.0" height="301.0" viewBox="0 0 913.0 301.0">
+  <g transform="translate(58.0,80.5)">
+  <rect x="333.5" y="-22.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="398.5" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test execution</text>
+  <rect x="281.0" y="117.5" width="242.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="402.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Selection &amp; Execution controls</text>
+  <rect x="583.0" y="117.5" width="214.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="690.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Runtime Isolation strategy</text>
+  <rect x="0.0" y="117.5" width="221.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="110.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test generation &amp; evolution</text>
+  <line x1="110.5" y1="70.0" x2="690.0" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="398.5" y1="22.5" x2="398.5" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="110.5" y1="70.0" x2="110.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="110.5" y1="109.5" x2="110.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="110.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="402.0" y1="70.0" x2="402.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="402.0" y1="109.5" x2="402.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="402.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="690.0" y1="70.0" x2="690.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="690.0" y1="109.5" x2="690.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="690.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  </g>
+</svg>

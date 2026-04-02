@@ -1,0 +1,147 @@
+{
+  "features": [
+    {
+      "id": "self_testing_capability",
+      "name": "Self-Testing Capability"
+    },
+    {
+      "id": "test_run_pipeline",
+      "name": "Test Run Pipeline"
+    },
+    {
+      "id": "trigger",
+      "name": "Trigger"
+    },
+    {
+      "id": "manual_trigger",
+      "name": "Manual Trigger"
+    },
+    {
+      "id": "test_execution",
+      "name": "Test execution"
+    },
+    {
+      "id": "runtime_isolation_strategy",
+      "name": "Runtime Isolation strategy"
+    },
+    {
+      "id": "clone_and_test",
+      "name": "Clone-and-test"
+    },
+    {
+      "id": "reporting",
+      "name": "Reporting"
+    },
+    {
+      "id": "self_testable_component",
+      "name": "Self-testable Component"
+    },
+    {
+      "id": "test_api",
+      "name": "Test API"
+    },
+    {
+      "id": "sequence_launcher",
+      "name": "Sequence launcher"
+    },
+    {
+      "id": "test_code_placement",
+      "name": "Test Code placement"
+    },
+    {
+      "id": "embedded_test_code",
+      "name": "Embedded test code"
+    },
+    {
+      "id": "result_checking_mechanism",
+      "name": "Result checking mechanism"
+    },
+    {
+      "id": "test_defined_checks",
+      "name": "Test-defined checks"
+    }
+  ],
+  "reference_features": [],
+  "relations": [
+    {
+      "kind": "mandatory",
+      "parent": "self_testing_capability",
+      "child": "test_run_pipeline"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_run_pipeline",
+      "child": "trigger"
+    },
+    {
+      "kind": "or",
+      "parent": "trigger",
+      "child": "manual_trigger",
+      "group": "trigger_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "manual_trigger",
+      "child": "test_api"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_run_pipeline",
+      "child": "test_execution"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_execution",
+      "child": "runtime_isolation_strategy"
+    },
+    {
+      "kind": "xor",
+      "parent": "runtime_isolation_strategy",
+      "child": "clone_and_test",
+      "group": "runtime_isolation_strategy_choices"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_run_pipeline",
+      "child": "reporting"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "self_testing_capability",
+      "child": "self_testable_component"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "self_testable_component",
+      "child": "test_api"
+    },
+    {
+      "kind": "xor",
+      "parent": "test_api",
+      "child": "sequence_launcher",
+      "group": "test_api_choices"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "self_testable_component",
+      "child": "test_code_placement"
+    },
+    {
+      "kind": "xor",
+      "parent": "test_code_placement",
+      "child": "embedded_test_code",
+      "group": "test_code_placement_choices"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "self_testable_component",
+      "child": "result_checking_mechanism"
+    },
+    {
+      "kind": "or",
+      "parent": "result_checking_mechanism",
+      "child": "test_defined_checks",
+      "group": "result_checking_mechanism_choices"
+    }
+  ]
+}

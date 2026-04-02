@@ -1,0 +1,39 @@
+{
+  "features": [
+    {
+      "id": "test_execution",
+      "name": "Test execution"
+    },
+    {
+      "id": "selection_execution_controls",
+      "name": "Selection & Execution controls"
+    }
+  ],
+  "reference_features": [
+    {
+      "id": "runtime_isolation_strategy",
+      "name": "Runtime Isolation strategy"
+    },
+    {
+      "id": "test_generation_evolution",
+      "name": "Test generation & evolution"
+    }
+  ],
+  "relations": [
+    {
+      "kind": "optional",
+      "parent": "test_execution",
+      "child": "test_generation_evolution"
+    },
+    {
+      "kind": "optional",
+      "parent": "test_execution",
+      "child": "selection_execution_controls"
+    },
+    {
+      "kind": "mandatory",
+      "parent": "test_execution",
+      "child": "runtime_isolation_strategy"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1546.0" height="361.0" viewBox="0 0 1546.0 361.0">
+  <g transform="translate(88.0,110.5)">
+  <rect x="609.5" y="-22.5" width="151.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="685.0" y="0.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test Run Pipeline</text>
+  <rect x="300.0" y="117.5" width="263.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="431.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Ready-to-validate state detection</text>
+  <rect x="1275.0" y="117.5" width="95.0" height="45.0" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="1322.5" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Reporting</text>
+  <rect x="150.0" y="117.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="195.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Planning</text>
+  <rect x="623.0" y="117.5" width="130.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="688.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Test execution</text>
+  <rect x="813.0" y="117.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="858.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Logging</text>
+  <rect x="963.0" y="117.5" width="102.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="1014.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Evaluation</text>
+  <rect x="1125.0" y="117.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="1170.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Reaction</text>
+  <rect x="0.0" y="117.5" width="90.0" height="45.0" fill="white" stroke="black" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="45.0" y="140.0" text-anchor="middle" dominant-baseline="middle" font-size="14px" fill="black" font-family="Arial, sans-serif">Trigger</text>
+  <line x1="45.0" y1="70.0" x2="1322.5" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="685.0" y1="22.5" x2="685.0" y2="70.0" stroke="black" stroke-width="1.4"/>
+  <line x1="45.0" y1="70.0" x2="45.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="45.0" y1="109.5" x2="45.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="45.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="195.0" y1="70.0" x2="195.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="195.0" y1="109.5" x2="195.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="195.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="431.5" y1="70.0" x2="431.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="431.5" y1="109.5" x2="431.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="431.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="688.0" y1="70.0" x2="688.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="688.0" y1="109.5" x2="688.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="688.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  <line x1="858.0" y1="70.0" x2="858.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="858.0" y1="109.5" x2="858.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="858.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="1014.0" y1="70.0" x2="1014.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="1014.0" y1="109.5" x2="1014.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="1014.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="1170.0" y1="70.0" x2="1170.0" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="1170.0" y1="109.5" x2="1170.0" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="1170.0" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="white"/>
+  <line x1="1322.5" y1="70.0" x2="1322.5" y2="109.5" stroke="black" stroke-width="1.4"/>
+  <line x1="1322.5" y1="109.5" x2="1322.5" y2="117.5" stroke="black" stroke-width="1.4"/>
+  <circle cx="1322.5" cy="109.5" r="6.0" stroke="black" stroke-width="1.4" fill="black"/>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+{
+  "features": [
+    {
+      "id": "test_generation_evolution",
+      "name": "Test generation & evolution"
+    },
+    {
+      "id": "system_model_availability",
+      "name": "System model availability"
+    },
+    {
+      "id": "design_time_generation_strategy",
+      "name": "Design-time generation strategy"
+    },
+    {
+      "id": "dynamic_generation_runtime",
+      "name": "Dynamic generation (runtime)"
+    },
+    {
+      "id": "deterministic_rules_design_time",
+      "name": "Deterministic rules (design time)"
+    },
+    {
+      "id": "model_based_test_derivation",
+      "name": "Model-based test derivation"
+    }
+  ],
+  "reference_features": [],
+  "relations": [
+    {
+      "kind": "optional",
+      "parent": "test_generation_evolution",
+      "child": "system_model_availability"
+    },
+    {
+      "kind": "or",
+      "parent": "test_generation_evolution",
+      "child": "design_time_generation_strategy",
+      "group": "test_generation_evolution_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "test_generation_evolution",
+      "child": "dynamic_generation_runtime",
+      "group": "test_generation_evolution_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "design_time_generation_strategy",
+      "child": "deterministic_rules_design_time",
+      "group": "design_time_generation_strategy_choices"
+    },
+    {
+      "kind": "or",
+      "parent": "design_time_generation_strategy",
+      "child": "model_based_test_derivation",
+      "group": "design_time_generation_strategy_choices"
+    },
+    {
+      "kind": "dependency",
+      "parent": "model_based_test_derivation",
+      "child": "system_model_availability"
+    }
+  ]
+}
